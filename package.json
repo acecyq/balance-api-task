@@ -2,8 +2,9 @@
   "name": "Balance-API-Interview-Task",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
+    "start": "node index.mjs",
     "test": "mocha"
   },
   "keywords": [],
@@ -12,7 +13,12 @@
   "dependencies": {
     "chai": "^4.3.4",
     "express": "^4.17.1",
-    "mocha": "^8.3.2"
+    "fetch-mock": "^9.11.0",
+    "mocha": "^8.3.2",
+    "node-fetch": "^3.1.0",
+    "sinon": "^12.0.1"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+  }
 }
